@@ -1,0 +1,218 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sidr\/src\/scss\/sidr\/_base\.scss}line{font-family:\000033}}
+.sidr {
+  /* Default Settings */
+  display: none;
+  position: absolute;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  z-index: 999999;
+  width: 260px;
+  overflow-x: none;
+  overflow-y: auto;
+  /* Theme Settings */
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+  font-size: 15px;
+  background: #333333;
+  color: white;
+  -webkit-box-shadow: inset 0 0 5px 5px #222222;
+  -moz-box-shadow: inset 0 0 5px 5px #222222;
+  box-shadow: inset 0 0 5px 5px #222222;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sidr\/src\/scss\/sidr\/_base\.scss}line{font-family:\0000315}}
+.sidr .sidr-inner {
+  padding: 0 0 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sidr\/src\/scss\/sidr\/_base\.scss}line{font-family:\0000318}}
+.sidr .sidr-inner > p {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sidr\/src\/scss\/sidr\/_base\.scss}line{font-family:\0000324}}
+.sidr.right {
+  left: auto;
+  right: -260px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sidr\/src\/scss\/sidr\/_base\.scss}line{font-family:\0000329}}
+.sidr.left {
+  left: -260px;
+  right: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sidr\/src\/scss\/sidr\/_base\.scss}line{font-family:\0000341}}
+.sidr h1, .sidr h2, .sidr h3, .sidr h4, .sidr h5, .sidr h6 {
+  font-size: 11px;
+  font-weight: normal;
+  padding: 0 15px;
+  margin: 0 0 5px;
+  color: white;
+  line-height: 24px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4d4d4d), color-stop(100%, #1a1a1a));
+  background-image: -webkit-linear-gradient(#4d4d4d, #1a1a1a);
+  background-image: -moz-linear-gradient(#4d4d4d, #1a1a1a);
+  background-image: -o-linear-gradient(#4d4d4d, #1a1a1a);
+  background-image: linear-gradient(#4d4d4d, #1a1a1a);
+  -webkit-box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.2);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sidr\/src\/scss\/sidr\/_base\.scss}line{font-family:\0000352}}
+.sidr p {
+  font-size: 13px;
+  margin: 0 0 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sidr\/src\/scss\/sidr\/_base\.scss}line{font-family:\0000355}}
+.sidr p a {
+  color: rgba(255, 255, 255, 0.9);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sidr\/src\/scss\/sidr\/_base\.scss}line{font-family:\0000360}}
+.sidr > p {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sidr\/src\/scss\/sidr\/_base\.scss}line{font-family:\0000365}}
+.sidr ul {
+  display: block;
+  margin: 0 0 15px;
+  padding: 0;
+  border-top: 1px solid #1a1a1a;
+  border-bottom: 1px solid #4d4d4d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sidr\/src\/scss\/sidr\/_base\.scss}line{font-family:\0000372}}
+.sidr ul li {
+  display: block;
+  margin: 0;
+  line-height: 48px;
+  border-top: 1px solid #4d4d4d;
+  border-bottom: 1px solid #1a1a1a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sidr\/src\/scss\/sidr\/_base\.scss}line{font-family:\0000381}}
+.sidr ul li:hover, .sidr ul li.active, .sidr ul li.sidr-class-active {
+  border-top: none;
+  line-height: 49px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sidr\/src\/scss\/sidr\/_base\.scss}line{font-family:\0000385}}
+.sidr ul li:hover > a, .sidr ul li:hover > span, .sidr ul li.active > a, .sidr ul li.active > span, .sidr ul li.sidr-class-active > a, .sidr ul li.sidr-class-active > span {
+  -webkit-box-shadow: inset 0 0 15px 3px #222222;
+  -moz-box-shadow: inset 0 0 15px 3px #222222;
+  box-shadow: inset 0 0 15px 3px #222222;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sidr\/src\/scss\/sidr\/_base\.scss}line{font-family:\0000390}}
+.sidr ul li a, .sidr ul li span {
+  padding: 0 15px;
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sidr\/src\/scss\/sidr\/_base\.scss}line{font-family:\0000397}}
+.sidr ul li ul {
+  border-bottom: none;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sidr\/src\/scss\/sidr\/_base\.scss}line{font-family:\00003100}}
+.sidr ul li ul li {
+  line-height: 40px;
+  font-size: 13px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sidr\/src\/scss\/sidr\/_base\.scss}line{font-family:\00003104}}
+.sidr ul li ul li:last-child {
+  border-bottom: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sidr\/src\/scss\/sidr\/_base\.scss}line{font-family:\00003110}}
+.sidr ul li ul li:hover, .sidr ul li ul li.active, .sidr ul li ul li.sidr-class-active {
+  border-top: none;
+  line-height: 41px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sidr\/src\/scss\/sidr\/_base\.scss}line{font-family:\00003114}}
+.sidr ul li ul li:hover > a, .sidr ul li ul li:hover > span, .sidr ul li ul li.active > a, .sidr ul li ul li.active > span, .sidr ul li ul li.sidr-class-active > a, .sidr ul li ul li.sidr-class-active > span {
+  -webkit-box-shadow: inset 0 0 15px 3px #222222;
+  -moz-box-shadow: inset 0 0 15px 3px #222222;
+  box-shadow: inset 0 0 15px 3px #222222;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sidr\/src\/scss\/sidr\/_base\.scss}line{font-family:\00003119}}
+.sidr ul li ul li a, .sidr ul li ul li span {
+  color: rgba(255, 255, 255, 0.8);
+  padding-left: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sidr\/src\/scss\/sidr\/_base\.scss}line{font-family:\00003128}}
+.sidr form {
+  margin: 0 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sidr\/src\/scss\/sidr\/_base\.scss}line{font-family:\00003132}}
+.sidr label {
+  font-size: 13px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sidr\/src\/scss\/sidr\/_base\.scss}line{font-family:\00003146}}
+.sidr input[type="text"],
+.sidr input[type="password"],
+.sidr input[type="date"],
+.sidr input[type="datetime"],
+.sidr input[type="email"],
+.sidr input[type="number"],
+.sidr input[type="search"],
+.sidr input[type="tel"],
+.sidr input[type="time"],
+.sidr input[type="url"],
+.sidr textarea, .sidr select {
+  width: 100%;
+  font-size: 13px;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 0 10px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  border: none;
+  background: rgba(0, 0, 0, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  display: block;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sidr\/src\/scss\/sidr\/_base\.scss}line{font-family:\00003160}}
+.sidr input[type=checkbox] {
+  width: auto;
+  display: inline;
+  clear: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sidr\/src\/scss\/sidr\/_base\.scss}line{font-family:\00003167}}
+.sidr input[type=button],
+.sidr input[type=submit] {
+  color: #333333;
+  background: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sidr\/src\/scss\/sidr\/_base\.scss}line{font-family:\00003171}}
+.sidr input[type=button]:hover,
+.sidr input[type=submit]:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+#mobile-header{
+    display: block;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 200;
+	height:48px;
+	text-align:left;
+	line-height:48px;
+}
+#mobile-header #responsive-menu-button{
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjEyNDcyQUQzRUZCMDExRTI5N0VDQzUyN0E0NkZENUM3IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjEyNDcyQUQ0RUZCMDExRTI5N0VDQzUyN0E0NkZENUM3Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MTI0NzJBRDFFRkIwMTFFMjk3RUNDNTI3QTQ2RkQ1QzciIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MTI0NzJBRDJFRkIwMTFFMjk3RUNDNTI3QTQ2RkQ1QzciLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7vVXbTAAAAZ0lEQVR42mL8//8/w0AAJoYBAoPCYk4gngzEH4D4Pw3wSSC2h9sGimMoTvtPe/AcZh+yj//SIYT/YgvqZVBMK/ACiFNgHMbR7DRq8WjJNVpyjZZco9lp1OLRkmu05BotuYaPxQABBgD8ubj605lCRwAAAABJRU5ErkJggg==');
+	background-position:center center;
+	background-repeat:none;
+	background-color:#444;
+	display:block;
+	margin:5px;
+	width: 34px;
+	height: 34px;	
+	cursor: pointer;
+	border-radius: 5px;	
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden; 
+
+}
+
